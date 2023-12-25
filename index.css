@@ -1,0 +1,55 @@
+.container {
+  background-image: url("/Advan/Lession9/ClassIn_20231224143030.png");
+  background-size: 100% 100%;
+  width: 760px;
+  height: 600px;
+  margin-top: 250px;
+}
+
+body {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+}
+
+.Search {
+  position: relative;
+  left: 200px;
+  top: 150px;
+  text-align: center;
+}
+
+.Search > p {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.Search > input {
+  background-color: black;
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  width: 170px;
+  color: white;
+}
+
+.content {
+  position: relative;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 290px;
+  height: 300px;
+  left: 470px;
+  top: 160px;
+}
+
+.innerContent {
+  margin-right: 60px;
+}
+
+.container > img {
+  position: absolute;
+  top: 400px;
+  width: 350px;
+}
